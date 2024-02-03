@@ -11,8 +11,8 @@ Set Up Steps:
              " -static-libgcc -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32"  paste this and           Click "OK" to save.
 
 5. Testing: To test if everything is set up correctly, create a new C or C++ file in Dev C++. Write a simple graphics program, for example:
-             #include <graphics.h>
 
+              #include <graphics.h>
               int main() {
               int gd = DETECT, gm;
               initgraph(&gd, &gm, "");
